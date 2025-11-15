@@ -1,1 +1,3 @@
-_all_ = ['pythagoras', 'circle']
+from .utils import pythagoras, circle
+
+__all__ = ['pythagoras', 'circle']
